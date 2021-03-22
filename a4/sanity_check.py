@@ -21,12 +21,12 @@ import sys
 import numpy as np
 
 from docopt import docopt
-from a4.utils import batch_iter
+from utils import batch_iter
 import nltk
 # from utils import read_corpus
-from a4.vocab import Vocab, VocabEntry
+from vocab import Vocab, VocabEntry
 
-from a4.nmt_model import NMT
+from nmt_model import NMT
 
 
 import torch
